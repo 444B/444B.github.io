@@ -10,10 +10,130 @@
 
 <body>
     <a href="/index.html">Home</a><br><a href="/pages/sandbox.html">Sandbox</a><br><a
-        href="/pages/roadmap.html">Roadmap</a><br><a href="/pages/about.html">About</a>
+        href="/pages/roadmap.html">Roadmap</a><br><a href="/pages/about.html">About</a><br><a
+        href="/pages/contact.html">Contact</a>
+
+    <!-- -----------------------------------SANDBOX BELOW -------------------------------------------- -->
+
     <h1>Sandbox</h1>
 
 
+
+    <form action="">
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="username">
+        <button>Submit</button>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <button>Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h3>Checkboxes</h3>
+    <form action="/birds">
+        <label for="agree">I agree to everything</label>
+        <input type="checkbox" name="tos" id="agree">
+    </form>
+    <form action="/birds">
+        <label for="agree">I agree to everything</label>
+        <input type="checkbox" name="tos" id="agree" checked>
+    </form>
+
+    <h3>Radios and options</h3>
+    <p>
+    <form action="/whatever">
+        <label for="xs">Small</label>
+        <input type="radio" name="size" id="xs" value="Small">
+
+        <label for="m">Medium</label>
+        <input type="radio" name="size" id="m" value="Medium">
+
+        <label for="l">large</label>
+        <input type="radio" name="size" id="l" value="Large">
+        </p>
+
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">fish</option>
+                <option value="meat">meat</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+    <p> file:///C:/whatever?size=Small&meal=fish
+    </p>
+    <hr>
+
+    <h3>Search engine repurposing</h3>
+    <form action="https://search.brave.com/search">
+        <input type="text" name="q" id="">
+        <button>Search Brave</button>
+    </form>
+    <form action="https://google.com/search">
+        <input type="text" name="q" id="">
+        <button>Search Google</button>
+    </form>
+    <form action="https://reddit.com/search">
+        <input type="text" name="q" id="">
+        <button>Search Reddit</button>
+    </form>
+    <form action="https://youtube.com/results">
+        <input type="text" name="search_query" id="">
+        <button>Search Youtube</button>
+    </form>
+
+    <hr>
+
+    <h3>Forms</h3>
+    <form action="/tacos">
+        <input type="text" placeholder="Username" name="test">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="password" name="password">
+        <input type="month" name="month">
+        <input type="time" name="time">
+        <button>Submit</button>
+    </form>
+    <hr>
+
+    <h3>Tables</h3>
+    <table>
+        <thead>
+            <tr>
+                <th><b>Subscription</b></th>
+                <th><b>Price</b></th>
+                <th><b>Support</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Free</td>
+                <td>Free</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Personal</td>
+                <td>$9.99</td>
+                <td>Weekdays</td>
+            </tr>
+            <tr>
+                <td>Business</td>
+                <td>$49.99</td>
+                <td>24/7</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 
